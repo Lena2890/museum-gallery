@@ -103,6 +103,7 @@
             justify-content: flex-start;
             padding-right: 1rem;
             width: 100%;
+            min-height: 100%;
         }
         .right-column {
             display: flex;
@@ -125,6 +126,7 @@
             position: relative;
             width: fit-content;
             max-width: 100%;
+            height: auto;
         }
         .image-container::before {
             content: '';
@@ -138,7 +140,7 @@
             pointer-events: none;
         }
         .modal-image {
-            max-height: 50vh;
+            max-height: 60vh;
             max-width: 100%;
             object-fit: contain;
             display: block;
